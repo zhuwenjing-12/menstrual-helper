@@ -75,8 +75,13 @@
         "enable" : false
     },
     "h5" : {
+        "router" : {
+            "mode" : "hash",
+            "base" : "./"
+        },
         "devServer" : {
             "port" : 8080
-        }
+        },
+        "publicPath" : "./"
     }
 }
