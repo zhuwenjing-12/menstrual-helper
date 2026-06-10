@@ -1,0 +1,250 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "月经助手",
+        "navigationBarBackgroundColor": "#FFF0F5",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/calendar/index",
+      "style": {
+        "navigationBarTitleText": "日历",
+        "navigationBarBackgroundColor": "#FFF0F5",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/record/index",
+      "style": {
+        "navigationBarTitleText": "记录",
+        "navigationBarBackgroundColor": "#FFF0F5",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/discover/index",
+      "style": {
+        "navigationBarTitleText": "发现",
+        "navigationBarBackgroundColor": "#FFF0F5",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/ai/index",
+      "style": {
+        "navigationBarTitleText": "AI助手",
+        "navigationBarBackgroundColor": "#FFF0F5",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarBackgroundColor": "#FFF0F5",
+        "navigationBarTextStyle": "black"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pages-sub/record-add",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "添加记录",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/settings",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "设置",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/backup",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "数据备份",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/about",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "关于",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/lock",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "隐私密码",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/stats",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "数据统计",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/community",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "女性话题",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/community-post",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "发布帖子",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/delivery",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "姨妈巾速送",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/knowledge",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "健康知识",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-sub/reminder",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "经期提醒",
+            "navigationBarBackgroundColor": "#FFF0F5",
+            "navigationBarTextStyle": "black"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "月经助手",
+    "navigationBarBackgroundColor": "#FFF0F5",
+    "backgroundColor": "#FFF0F5",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF6B9D",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "height": "56px",
+    "iconWidth": "24px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "pagePath": "pages/calendar/index",
+        "text": "日历",
+        "iconPath": "static/tab/calendar.png",
+        "selectedIconPath": "static/tab/calendar-active.png"
+      },
+      {
+        "pagePath": "pages/record/index",
+        "text": "记录",
+        "iconPath": "static/tab/record.png",
+        "selectedIconPath": "static/tab/record-active.png"
+      },
+      {
+        "pagePath": "pages/discover/index",
+        "text": "发现",
+        "iconPath": "static/tab/discover.png",
+        "selectedIconPath": "static/tab/discover-active.png"
+      },
+      {
+        "pagePath": "pages/ai/index",
+        "text": "AI助手",
+        "iconPath": "static/tab/ai.png",
+        "selectedIconPath": "static/tab/ai-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tab/mine.png",
+        "selectedIconPath": "static/tab/mine-active.png"
+      }
+    ]
+  }
+}
